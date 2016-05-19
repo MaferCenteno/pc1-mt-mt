@@ -9,6 +9,6 @@ import retrofit2.http.GET;
 
 public interface EquiposService {
 
-    @GET("/rest/equipos")
+    @GET("/rest/equipos/{id}")
     Call<List<Equipo>> obtenerEquipos();
 }
